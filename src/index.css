@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1 {
+  text-align: center;
+}
+.btn {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.btn-add {
+  background-color: green;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.btn-update {
+  background-color: green;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.btn-add-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-wrapper {
+  padding: 20px;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.add input {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.editTodo input, .add-input{
+  padding: 5px 10px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold
+}
+
+.add-input {
+  width: 100%;
+}
